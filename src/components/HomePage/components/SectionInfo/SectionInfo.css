@@ -1,0 +1,23 @@
+.sec-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    font-family: 'Oswald',sans-serif;
+}
+.sec-container h1{
+    font-size: 2rem;
+    font-weight: 700 !important;
+}
+.sec-inner-info{
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+    margin-top: 5%;
+    padding: 0 7%;
+}
+.sec-inner-info p{
+    padding: 0 20px;
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
