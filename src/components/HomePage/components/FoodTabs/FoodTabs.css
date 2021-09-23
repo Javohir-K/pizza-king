@@ -1,0 +1,142 @@
+.tab-item {
+    /* display: none; */
+    font-weight: 700 !important;
+    transition: 0.4s ease-in-out;
+}
+
+.food-tabs {
+    padding: 40px 7%;
+}
+
+.tab-list-btn {
+    padding: 0 20%;
+}
+
+.tab-list-btn ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.tab-list-btn ul li {
+    list-style-type: none;
+    transition: 0.2s ease-in-out;
+}
+
+.tab-list-btn ul li button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-weight: 700 !important;
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    opacity: 0.5;
+}
+
+.tab-list-btn ul li:hover {
+    opacity: 0.8;
+}
+
+
+.owl-burger {
+    position: relative;
+}
+
+.owl-burger>.owl-nav {
+    /* position: absolute; */
+    /* width: 110%;
+    height: 100%; */
+    top: 0;
+    left: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.owl-burger .owl-prev,
+.owl-burger .owl-next {
+    outline: none;
+    width: 50px;
+    height: 50px;
+    /* padding: 15px !important; */
+    border-radius: 50% !important;
+    background-color: transparent;
+    border: 2px solid gray !important;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-burger .owl-next {
+    right: -5%;
+    top: 50%;
+}
+
+.owl-burger .owl-prev {
+    left: -5%;
+    top: 50%;
+}
+
+.owl-burger .owl-nav .owl-next span,
+.owl-burger .owl-nav .owl-prev span {
+    font-size: 48px;
+    position: relative;
+    z-index: -1;
+    /* top: -5px; */
+    transform: translateY(3px);
+}
+
+.owl-burger .owl-nav .owl-prev span {
+    transform: translateY(3px) translateX(-3px);
+}
+
+.tab-item-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 35%;
+
+}
+
+.tab-link {
+    margin: 0 5px;
+    opacity: 0.9;
+    padding: 5px 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.tab-item-panel .tab-panel-active {
+    background-color: white;
+    color: black;
+}
+
+.tab-item-panel .tab-panel-disactive {
+    background-color: transparent;
+    color: white;
+}
+
+.tab-item-panel .tab-link:hover {
+    background-color: rgba(256, 256, 256, 0.2);
+}
+
+.tab-item-panel .tab-panel-active:hover {
+    background-color: white;
+}
+
+
+.sushi-item .slide-card .top-buttons,
+.sushi-item .slide-card .bottom-buttons,
+.burger-item .slide-card .bottom-buttons {
+    display: none;
+}
+.sushi-item{
+    margin-top: 50px;
+}
