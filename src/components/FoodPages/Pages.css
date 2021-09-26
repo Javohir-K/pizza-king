@@ -1,0 +1,45 @@
+.main-container{
+    padding: 40px 7%;
+}
+.pages-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.breadcrumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.breadcrumb a{
+    transition: .2s ease-in-out;
+    opacity: 0.7;
+    text-decoration: none;
+    color: white;
+}
+.breadcrumb a:hover{
+    opacity: .5;
+}
+.breadcrumb span{
+    margin: 0 10px;
+}
+.title h2{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.food-list{
+    margin-left: 20px;
+    /* width: auto; */
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: start;
+}
+.food-list .item{
+    max-width: 270px;
+    margin-right: 10px;
+}
+.btnHide .top-buttons,.btnHide .bottom-buttons{
+    display: none;
+}

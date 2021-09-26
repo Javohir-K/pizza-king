@@ -6,7 +6,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import { PizzaInfo } from "../../../../Foods";
-import FoodCard from "../Promo/PromoSlider/Slides";
+import FoodCard from "../../../FoodCard";
 
 function Pizza() {
   const [content, setContent] = useState(<AllPizza />);
@@ -98,6 +98,7 @@ export const AllPizza = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
               />
             </div>
           );
@@ -122,6 +123,8 @@ export const SpicyPizza = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );
@@ -147,6 +150,8 @@ export const VegPizza = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );
@@ -170,6 +175,8 @@ export const MushPizza = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );
@@ -193,6 +200,8 @@ export const MeatPizza = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );
@@ -216,6 +225,8 @@ export const SeaPizza = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );

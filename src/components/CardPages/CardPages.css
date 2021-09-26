@@ -1,0 +1,75 @@
+.cardpage-main{
+    width: 100%;
+    display: flex;
+}
+
+.cardpage-sidebar{
+    box-sizing: border-box;
+    flex: 1;
+    padding-right: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+.cardpage-items{
+    display: flex;
+    flex: 4;
+    padding-left: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.filtering h3, .sidebar-recommendation h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.filter-buttons{
+    padding: 20px 0;
+    display: flex;
+}
+.filter-buttons button{
+    margin-right: 10px;
+    padding: 5px 15px;
+    border: 2px solid green;
+    border-radius: 999px;
+    background: transparent;
+    color: white;
+}
+
+.filter-btn{
+    width: 100%;
+    background: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    outline: none;
+}
+.filter-btn:hover{
+    opacity: 0.7;
+}
+
+.sidebar-recommendation{
+    padding-top: 40px;
+    position: sticky;
+    top: 100px;
+}
+
+.rec-food{
+    display: flex;
+    margin-top: 20px;
+    max-width: 200px;
+}
+.rec-food img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.rec-food h4{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.rec-food p{
+    padding: 0;
+    margin: 0;
+}

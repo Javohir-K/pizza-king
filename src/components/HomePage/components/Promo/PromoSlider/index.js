@@ -1,12 +1,12 @@
 import React from "react";
-import Slides from "./Slides";
+import FoodCard from "../../../../FoodCard"
 import "./PromoSlider.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 //Import json file data
-import { PizzaData } from "./Pizzas";
+import { PizzaInfo } from "../../../../../Foods";
 
 function PromoSlider() {
   
@@ -18,10 +18,10 @@ function PromoSlider() {
         
       <OwlCarousel className="owl-theme" items="2" margin={2} nav>
         {
-          PizzaData.map((data,key)=>{
+          PizzaInfo.map((data,key)=>{
             return(
               <div class="item">
-              <Slides
+              <FoodCard
               key={data.id}
                 src={data.imageUrl}
                 dataprice1={data.dataprice1}
@@ -30,6 +30,7 @@ function PromoSlider() {
                 title={data.title}
                 price={data.price}
                 recipe={data.recipe}
+                link={data.link}
               />
             </div>
             )

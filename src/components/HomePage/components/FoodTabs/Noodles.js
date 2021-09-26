@@ -6,7 +6,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 import { NoodlesInfo } from "../../../../Foods";
-import FoodCard from "../Promo/PromoSlider/Slides";
+import FoodCard from "../../../FoodCard";
 
 function Noodles() {
 
@@ -27,6 +27,8 @@ function Noodles() {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );

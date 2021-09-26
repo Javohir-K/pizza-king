@@ -1,0 +1,85 @@
+.slide-card{
+    border-radius: 5px;
+    transition:  0.4s ease-in-out;
+    padding:15px;
+    border: 1px solid transparent;
+}
+.slide-card:hover{
+        border: 1px solid #555;
+}
+.slide-card:hover .add-to-cart-button{
+    opacity: 1;
+}
+
+.slide-card-content-bottom{
+    padding: 10px;
+}
+.slide-card-content-bottom h1{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.slide-card-content-bottom p{
+    font-size: 0.9rem;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.top-buttons, .bottom-buttons, .add-to-cart-button{
+    padding: 5px 0;
+}
+
+.slide-card-buttons button{
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid #666;
+    margin-right: 5px;
+    color: white;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 20px;
+    outline: none;
+}
+
+.slide-card-buttons button.button-active{
+    background-color: #6fba54 ;
+    border-color: #6fba54;
+}
+
+.price-label{
+    margin-top: 10px;
+}
+
+.price-label p{
+    font-size: 1.2rem;
+    color: white !important;
+    opacity: 1 !important;
+}
+
+
+.add-to-cart-button{
+    margin-top: 20px;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+
+
+.add-to-cart-button button{
+    background-color: #6fba54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px 0;
+    font-size: 14px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+.add-to-cart-button button img{
+    width: 18px !important;
+    margin-right: 10px;
+}
+.add-to-cart-button button:hover{
+    opacity: 0.8;
+}

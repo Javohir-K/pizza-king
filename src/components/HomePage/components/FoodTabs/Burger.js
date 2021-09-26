@@ -5,7 +5,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import { BurgerInfo } from "../../../../Foods";
-import FoodCard from "../Promo/PromoSlider/Slides";
+import FoodCard from "../../../FoodCard";
 
 function Burger() {
   const [tab, setTab] = useState(<AllBurger />);
@@ -80,6 +80,7 @@ export const AllBurger = () => {
           return (
             <div className="item">
               <FoodCard
+              key={data.id}
                 src={data.imageUrl}
                 title={data.title}
                 dataprice1={data.dataprice1}
@@ -87,6 +88,8 @@ export const AllBurger = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );
@@ -110,6 +113,8 @@ export const SpicyBurger = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );
@@ -136,6 +141,8 @@ export const MeatBurger = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );
@@ -159,6 +166,8 @@ const FishBurger = () => {
                 dataprice3={data.dataprice3}
                 recipe={data.recipe}
                 price={data.price}
+                link={data.link}
+
               />
             </div>
           );
@@ -183,6 +192,8 @@ const ChickenBurger = () => {
                   dataprice3={data.dataprice3}
                   recipe={data.recipe}
                   price={data.price}
+                link={data.link}
+
                 />
               </div>
             );

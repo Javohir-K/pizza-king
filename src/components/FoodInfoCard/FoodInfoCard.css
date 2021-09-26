@@ -1,0 +1,108 @@
+.foodinfocard{
+    padding: 40px 7%;
+}
+
+.foodinfocard-inner{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 40px;
+}
+.foodinfo-left,.foodinfo-right{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foodinfo-right{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.foodinfo-left img{
+    width: 80%;
+    height: 80%;
+}
+.foodinfo-title{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700 !important;
+}
+.recipe{
+    margin-top: 20px;
+    opacity: 0.7;
+    max-width: 500px;
+}
+.nutritional-facts{
+    opacity: 0.7;
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 5px;
+}
+.nutritional-facts h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nutritional-facts p{
+    margin-bottom: 0;
+}
+.foodinfo-bottom{
+    padding: 20px 0;
+}
+.foodinfo-bottom .price{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.add-to-cart{
+    color: white;
+    padding: 10px 52px;
+    background-color: #6fba54 ;
+    border: 1px solid #6fba54;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-to-cart img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.category{
+    margin-top: 20px;
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.main-info-bottom{
+    padding: 40px 15%;
+}
+.main-info-bottom h2{
+    font-family: 'Oswald',sans-serif;
+    font-weight: 700 !important;
+}
+.additional-info ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    
+}
+.additional-info ul li p{
+    margin-bottom: 0;
+}
+.additional-info ul{
+    margin-top: 40px;
+    opacity: 0.7;
+}
+.additional-info ul > hr{
+    width: 100%;
+    margin: 5px 0;
+    border-top: 1px solid white;
+}
+.main-info-bottom > p{
+    margin-top: 20px;
+    padding-left: 30px;
+    opacity: 0.7;
+}
