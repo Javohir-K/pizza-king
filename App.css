@@ -2,4 +2,15 @@
     background: url(./images/bg-paterns.png);
     background-position: center;
     background-size: cover;
+    animation: anim 1s linear;
+
+}
+
+@keyframes anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
